@@ -20,6 +20,7 @@ question = "Hello Can you explain LLM from scratch for beginners"
 data = {
     "contents": [
         {
+            "role": "user",
             "parts": [
                 {
                     "text": question
@@ -37,5 +38,5 @@ response = requests.post(
 )
 # check for response
 response.raise_for_status()
-
+# convert result into response
 response.json()
