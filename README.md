@@ -55,30 +55,140 @@ The repository is organized into learning phases. Each phase covers a specific a
 The repository is organized by learning phases and individual lessons.
 
 ```text
+
 LLM-Full-Course-With-Projects/
 │
-├── 01-What-Are-LLMs/
+├── 01-LLM-Fundamentals/
+│   ├── 01-What-Are-Large-Language-Models/
+│   ├── 02-Introduction-To-Generative-AI/
+│   ├── 03-How-ChatGPT-Works-Internally/
+│   ├── 04-Evolution-Of-NLP/
+│   ├── 05-Foundation-Models/
+│   ├── 06-Pretrained-Vs-Fine-Tuned-Models/
+│   ├── 07-LLM-Parameters/
+│   ├── 08-Training-Vs-Inference/
+│   ├── 09-Context-Window/
+│   └── 10-Next-Token-Prediction/
 │
-├── 02-NLP-Tokenization-Embeddings/
+├── 02-NLP-Tokenization-And-Embeddings/
+│   ├── 11-Introduction-To-NLP/
+│   ├── 12-Text-Preprocessing/
+│   ├── 13-Bag-Of-Words-And-TF-IDF/
+│   ├── 14-Word-Embeddings/
+│   ├── 15-Word2Vec/
+│   ├── 16-GloVe-Embeddings/
+│   ├── 17-LLM-Tokenization/
+│   ├── 18-Byte-Pair-Encoding/
+│   ├── 19-SentencePiece-Tokenizer/
+│   └── 20-Build-Your-Own-Tokenizer/
 │
 ├── 03-Transformer-Architecture/
+│   ├── 21-Introduction-To-Transformers/
+│   ├── 22-Attention-Is-All-You-Need/
+│   ├── 23-Attention-Mechanism/
+│   ├── 24-Self-Attention/
+│   ├── 25-Query-Key-Value/
+│   ├── 26-Scaled-Dot-Product-Attention/
+│   ├── 27-Multi-Head-Attention/
+│   ├── 28-Positional-Encoding/
+│   ├── 29-Feed-Forward-Network/
+│   ├── 30-Residual-Connections-And-Layer-Normalization/
+│   ├── 31-Transformer-Encoder-Vs-Decoder/
+│   ├── 32-Decoder-Only-Transformers/
+│   ├── 33-GPT-Architecture/
+│   └── 34-BERT-Vs-GPT-Vs-T5/
 │
 ├── 04-Build-GPT-From-Scratch/
+│   ├── 35-Build-GPT-From-Scratch/
+│   ├── 36-Character-Level-Language-Model/
+│   ├── 37-GPT-Training-Data-Preparation/
+│   ├── 38-Token-Embedding-Layer/
+│   ├── 39-Self-Attention-Using-PyTorch/
+│   ├── 40-Multi-Head-Attention-Using-PyTorch/
+│   ├── 41-Transformer-Block/
+│   ├── 42-GPT-Architecture-Implementation/
+│   ├── 43-Training-GPT-Using-PyTorch/
+│   ├── 44-Next-Token-Prediction-Using-PyTorch/
+│   ├── 45-GPT-Text-Generation/
+│   └── 46-Temperature-TopK-TopP-Sampling/
 │
-├── 05-Hugging-Face-Pretrained-Models/
+├── 05-Hugging-Face-And-Pretrained-LLMs/
+│   ├── 47-Hugging-Face-Transformers/
+│   ├── 48-Hugging-Face-Tutorial/
+│   ├── 49-Loading-Pretrained-LLMs/
+│   ├── 50-Hugging-Face-Tokenizers/
+│   ├── 51-Text-Generation-With-Hugging-Face/
+│   ├── 52-Open-Source-LLMs/
+│   ├── 53-Llama-Models/
+│   ├── 54-Gemma-Models/
+│   └── 55-Build-AI-Chatbot-With-Hugging-Face/
 │
-├── 06-LLM-Fine-Tuning/
+├── 06-LLM-Training-And-Fine-Tuning/
+│   ├── 56-Pretraining-Vs-Fine-Tuning/
+│   ├── 57-Supervised-Fine-Tuning/
+│   ├── 58-Instruction-Tuning/
+│   ├── 59-Fine-Tuning-Dataset-Preparation/
+│   ├── 60-Fine-Tuning-With-Hugging-Face/
+│   ├── 61-Parameter-Efficient-Fine-Tuning/
+│   ├── 62-LoRA-Fine-Tuning/
+│   ├── 63-QLoRA-Fine-Tuning/
+│   ├── 64-LLM-Quantization/
+│   ├── 65-Fine-Tuning-Llama/
+│   └── 66-Evaluating-Fine-Tuned-LLMs/
 │
-├── 07-RAG-Vector-Databases/
+├── 07-RAG-Embeddings-And-Vector-Databases/
+│   ├── 67-Introduction-To-RAG/
+│   ├── 68-RAG-Architecture/
+│   ├── 69-Text-Embeddings-For-LLMs/
+│   ├── 70-Vector-Databases/
+│   ├── 71-Semantic-Search/
+│   ├── 72-FAISS-Tutorial/
+│   ├── 73-ChromaDB-Tutorial/
+│   ├── 74-Document-Chunking-Strategies/
+│   ├── 75-Build-PDF-RAG-Chatbot/
+│   ├── 76-RAG-With-LangChain/
+│   ├── 77-Advanced-RAG-Techniques/
+│   └── 78-RAG-Evaluation-And-Reranking/
 │
-├── 08-LangChain-LangGraph/
+├── 08-LangChain-And-LangGraph/
+│   ├── 79-Introduction-To-LangChain/
+│   ├── 80-LangChain-Complete-Tutorial/
+│   ├── 81-Chat-Models-And-Prompt-Templates/
+│   ├── 82-LangChain-Chains/
+│   ├── 83-Document-Loaders-And-Text-Splitters/
+│   ├── 84-LangChain-Memory/
+│   ├── 85-Build-Chatbot-With-LangChain/
+│   ├── 86-Introduction-To-LangGraph/
+│   ├── 87-LangGraph-Tutorial/
+│   └── 88-Build-AI-Agent-With-LangGraph/
 │
-├── 09-AI-Agents/
+├── 09-AI-Agents-And-Advanced-LLM-Engineering/
+│   ├── 89-Introduction-To-AI-Agents/
+│   ├── 90-LLM-Function-Calling/
+│   ├── 91-LLM-Tool-Calling/
+│   ├── 92-ReAct-Agents/
+│   ├── 93-AI-Agent-Memory/
+│   ├── 94-Multi-Agent-Systems/
+│   ├── 95-Model-Context-Protocol/
+│   ├── 96-Build-AI-Agents-With-Python/
+│   ├── 97-Build-Multi-Agent-Systems/
+│   └── 98-AI-Agent-Evaluation-And-Guardrails/
 │
-├── 10-Production-Deployment/
+├── 10-Production-And-Deployment/
+│   ├── 99-Deploy-LLMs-With-FastAPI/
+│   ├── 100-Running-Local-LLMs-With-Ollama/
+│   ├── 101-vLLM/
+│   ├── 102-LLM-Quantization-And-Optimization/
+│   ├── 103-LLM-Inference-Optimization/
+│   ├── 104-KV-Cache/
+│   ├── 105-LLM-Streaming-With-FastAPI/
+│   ├── 106-Docker-For-LLM-Applications/
+│   ├── 107-LLM-Evaluation-And-Monitoring/
+│   └── 108-Build-And-Deploy-Complete-LLM-Application/
 │
 ├── requirements.txt
 └── README.md
+
 ```
 
 *Note: This is the planned organization. The actual folders will grow as I complete each lesson.*
