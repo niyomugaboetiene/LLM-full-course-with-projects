@@ -11,5 +11,27 @@ URL = (f"https://generativelanguage.googleapis.com/v1beta/"
        f"models/{MODEL}:generateContent"
       )
 headers = {
-    "C"
+    "Content-Type": "application/json",
+    "x-goog-api-key": API_KEY
 }
+
+question = "Hello Can you explain LLM from scratch for beginners"
+
+data = {
+    "contents": [
+        {
+            "parts": [
+                {
+                    "text": question
+                }
+            ]
+        }
+    ]
+}
+
+response = requests.post(
+    URL,
+    headers=headers,
+    json=data,
+    timeout=60
+)
