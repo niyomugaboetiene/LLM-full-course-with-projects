@@ -44,6 +44,8 @@ response = requests.post(
     timeout=300 # adjust based on your internet connection
 )
 # check for response
-response.raise_for_status()
+# response.raise_for_status()
 # convert result into response
-print(response.json())
+# print(response.json())
+print(response.status_code)
+print(response.text)
