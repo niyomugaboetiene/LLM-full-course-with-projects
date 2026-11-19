@@ -7,34 +7,32 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API KEY which created through OpenAI stuio
-API_KEY = os.getenv("OPENAI_API_KEY")
+API_KEY = os.getenv("GEMINI_API_KEY")
+# model ID 
+MODEL = "gemini-3.8-flash"
 
 # to ask question in ChatGPT you need its URL
 URL = "https://api.openai.com/v1/responses"
 # configure https headers
 headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {API_KEY}"
+    "x-goog-api-key": API_KEY
 }
 
 question = "Hello Can you explain LLM from scratch for beginners"
 
-# create json structure that ChatGPT can understand
-# data = {
-#     "contents": [
-#         {
-#             "role": "user",
-#             "parts": [
-#                 {
-#                     "text": question
-#                 }
-#             ]
-#         }
-#     ]
-# }
+# create json structure that GEMINI can understand
 data = {
-    "model": "gpt-4.1-mini",
-    "input": question
+    "contents": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": question
+                }
+            ]
+        }
+    ]
 }
 
 response = requests.post(
@@ -44,8 +42,6 @@ response = requests.post(
     timeout=300 # adjust based on your internet connection
 )
 # check for response
-# response.raise_for_status()
+response.raise_for_status()
 # convert result into response
-# print(response.json())
-print(response.status_code)
-print(response.text)
+response.json()
