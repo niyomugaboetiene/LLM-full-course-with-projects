@@ -1,4 +1,4 @@
-# 🚀 Large Language Models (LLMs) — From Beginner to Advanced
+# Large Language Models (LLMs) — From Beginner to Advanced
 
 ![LLM Learning Journey](https://img.shields.io/badge/AI-Large%20Language%20Models-blueviolet)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -15,7 +15,7 @@ Every lesson has its corresponding coding tasks, explanations, experiments, and 
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 The main objectives of this repository are to:
 
@@ -31,7 +31,7 @@ The main objectives of this repository are to:
 - Explore AI agents, tool calling, and autonomous workflows.
 - Deploy practical LLM-powered applications.
 
-## 📚 Learning Roadmap
+## Learning Roadmap
 
 The repository is organized into learning phases. Each phase covers a specific area of LLM development.
 
@@ -50,7 +50,7 @@ The repository is organized into learning phases. Each phase covers a specific a
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository is organized by learning phases and individual lessons.
 
@@ -85,7 +85,7 @@ LLM-Full-Course-With-Projects/
 
 ---
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 
 The technologies I expect to use throughout this learning journey include:
 
@@ -111,7 +111,7 @@ Additional tools and technologies will be introduced as the learning journey pro
 
 ---
 
-## 💻 How I Approach Each Lesson
+## How I Approach Each Lesson
 
 Each lesson follows a practical learning approach:
 
@@ -125,7 +125,7 @@ The goal is not simply to copy code but to understand what every important part 
 
 ---
 
-## 🚀 Major Projects
+## Major Projects
 
 Throughout this journey, I plan to develop several projects that combine the concepts learned in different phases.
 
@@ -144,7 +144,7 @@ These projects will evolve as I gain more knowledge and experience.
 
 ---
 
-## 🌍 My Long-Term Goal
+## My Long-Term Goal
 
 My long-term goal is to develop the knowledge and practical skills needed to build useful AI-powered applications, particularly applications that can address real-world challenges in Rwanda and beyond.
 
@@ -159,7 +159,7 @@ I am especially interested in exploring:
 
 ---
 
-## 📈 Learning Progress
+## Learning Progress
 
 This repository is continuously updated as I complete new lessons and projects.
 
@@ -180,7 +180,7 @@ This repository is continuously updated as I complete new lessons and projects.
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -224,7 +224,7 @@ Some lessons may have their own dependencies or setup instructions. Always check
 
 ---
 
-## 📖 Learning Resources
+## Learning Resources
 
 Some of the resources supporting this journey:
 
@@ -237,7 +237,7 @@ Some of the resources supporting this journey:
 
 ---
 
-## 🤝 Contributions & Feedback
+## Contributions & Feedback
 
 This repository primarily documents my personal learning journey, but suggestions, corrections, discussions, and improvements are welcome.
 
@@ -245,7 +245,7 @@ If you find an error or have a better way of implementing something, feel free t
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **NIYOMUGABO Etiene**
 
