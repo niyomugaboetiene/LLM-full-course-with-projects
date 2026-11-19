@@ -35,3 +35,7 @@ response = requests.post(
     json=data,
     timeout=60
 )
+# check for response
+response.raise_for_status()
+
+response.json()
