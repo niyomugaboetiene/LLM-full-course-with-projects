@@ -17,6 +17,7 @@ headers = {
 
 question = "Hello Can you explain LLM from scratch for beginners"
 
+# create json structure that GEMINI can understanda
 data = {
     "contents": [
         {
