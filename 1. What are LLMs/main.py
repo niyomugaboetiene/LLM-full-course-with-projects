@@ -6,35 +6,35 @@ from dotenv import load_dotenv
 # load secret env credentials
 load_dotenv()
 
-# API KEY which created through google AI stuio
-API_KEY = os.getenv("GEMINI_API_KEY")
-# model ID 
-MODEL = "gemini-3.8-flash"
+# API KEY which created through OpenAI stuio
+API_KEY = os.getenv("OPENAI_API_KEY")
 
-# to ask question in gemini you need its URL
-URL = (f"https://generativelanguage.googleapis.com/v1beta/"
-       f"models/{MODEL}:generateContent"
-      )
+# to ask question in ChatGPT you need its URL
+URL = "https://api.openai.com/v1/responses"
 # configure https headers
 headers = {
     "Content-Type": "application/json",
-    "x-goog-api-key": API_KEY
+    "Authorization": f"Bearer {API_KEY}"
 }
 
 question = "Hello Can you explain LLM from scratch for beginners"
 
-# create json structure that GEMINI can understanda
+# create json structure that ChatGPT can understand
+# data = {
+#     "contents": [
+#         {
+#             "role": "user",
+#             "parts": [
+#                 {
+#                     "text": question
+#                 }
+#             ]
+#         }
+#     ]
+# }
 data = {
-    "contents": [
-        {
-            "role": "user",
-            "parts": [
-                {
-                    "text": question
-                }
-            ]
-        }
-    ]
+    "model": "gpt-4.1-mini",
+    "input": question
 }
 
 response = requests.post(
@@ -46,4 +46,4 @@ response = requests.post(
 # check for response
 response.raise_for_status()
 # convert result into response
-response.json()
+print(response.json())
