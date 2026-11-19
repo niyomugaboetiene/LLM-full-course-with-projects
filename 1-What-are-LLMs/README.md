@@ -104,7 +104,7 @@ simple-llm/
 
 ```bash
 git clone https://github.com/niyomugaboetiene/LLM-full-course-with-projects
-cd `1. What are LLMs`
+cd 1-What-are-LLMs
 ```
 
 ### 2. Create a virtual environment
