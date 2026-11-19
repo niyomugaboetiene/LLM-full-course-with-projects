@@ -253,7 +253,7 @@ UR Student | Python Developer | AI & Machine Learning Enthusiast
 
 Exploring Artificial Intelligence, Machine Learning, Deep Learning, and Large Language Models.
 
-- GitHub: [Your GitHub Profile](https://github.com/niyomugaboetiene)
+- Website: [Personal Web](https://niyomugaboetiene.vercela.pp)
 
 ---
 
