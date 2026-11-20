@@ -38,7 +38,7 @@ response = requests.post(
     headers=header,    
 )
 
-response.raise_for_status()
+# response.raise_for_status()
 # result = response.json()
 # print(result)
 print(response.status_code)
