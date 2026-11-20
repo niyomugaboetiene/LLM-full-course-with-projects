@@ -31,3 +31,13 @@ data = {
     "model": MODEL,
     "messages": messages
 }
+
+response = requests.post(
+    URL,
+    json=data,
+    headers=header,    
+)
+
+response.raise_for_status()
+result = response.json()
+print(result)
