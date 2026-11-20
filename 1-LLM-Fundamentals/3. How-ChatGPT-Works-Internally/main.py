@@ -10,7 +10,7 @@ load_dotenv()
 
 API_KEY = os.getenv("OPEN_ROUTER_API_KEY")
 
-MODEL = "inclusionai/ling-3.2-flash:free"
+MODEL = "liquid/lfm-3-1.7b:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
 header = {
@@ -36,10 +36,11 @@ response = requests.post(
     URL,
     json=data,
     headers=header,    
+    timeout=300
 )
 
-# response.raise_for_status()
-# result = response.json()
-# print(result)
-print(response.status_code)
-print(response.text)
+response.raise_for_status()
+result = response.json()
+print(result)
+# print(response.status_code)
+# print(response.text)
