@@ -18,4 +18,16 @@ header = {
     "Content-Type": "application/json"
 }
 
-message = input("You: ")
+user_message = input("You: ")
+
+messages = [
+    {
+        "role": "user",
+        "content": user_message
+    }
+]
+
+data = {
+    "model": MODEL,
+    "messages": messages
+}
