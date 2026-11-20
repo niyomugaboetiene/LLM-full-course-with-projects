@@ -10,3 +10,10 @@ load_dotenv()
 
 API_KEY = os.getenv("OPEN_ROUTER_API_KEY")
 
+MODEL = "inclusionai/ling-3.2-flash:free"
+URL = "https://openrouter.ai/api/v1/chat/completions"
+
+header = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
