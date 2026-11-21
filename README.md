@@ -253,7 +253,6 @@ Throughout this journey, I plan to develop several projects that combine the con
 These projects will evolve as I gain more knowledge and experience.
 
 ---
-
 ## My Long-Term Goal
 
 My long-term goal is to develop the knowledge and practical skills needed to build useful AI-powered applications, particularly applications that can address real-world challenges in Rwanda and beyond.
