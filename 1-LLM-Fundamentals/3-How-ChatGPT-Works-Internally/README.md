@@ -26,7 +26,7 @@ This project demonstrates how to integrate an existing Large Language Model (LLM
 ## Project Structure
 
 ```text
-simple-terminal-chatbot/
+3-How-ChatGPT-Works-Internally/
 │
 ├── main.py
 ├── .env
@@ -58,8 +58,12 @@ pip install -r requirements.txt
 The `requirements.txt` file contains:
 
 ```text
-requests
-python-dotenv
+certifi==2026.10.23
+charset-normalizer==3.5.2
+idna==3.20
+python-dotenv==1.2.4
+requests==2.34.2
+urllib3==2.8.0
 ```
 
 ### 3. Get your OpenRouter API key
