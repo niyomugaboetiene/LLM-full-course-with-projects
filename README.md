@@ -358,7 +358,7 @@ If you find an error or have a better way of implementing something, feel free t
 
 **NIYOMUGABO Etiene**
 
-UR Student | Python Developer | AI & Machine Learning Enthusiast
+Python Developer | AI & Machine Learning Enthusiast
 
 Exploring Artificial Intelligence, Machine Learning, Deep Learning, and Large Language Models.
 
