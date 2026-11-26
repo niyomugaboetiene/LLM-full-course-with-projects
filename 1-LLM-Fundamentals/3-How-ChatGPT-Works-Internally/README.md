@@ -153,7 +153,7 @@ This project helps beginners understand:
 
 **NIYOMUGABO Etiene**
 
-UR Student | Python & AI Enthusiast
+Python & AI Enthusiast
 
 GitHub: [My GitHub Profile](https://github.com/niyomugaboetiene)
 
